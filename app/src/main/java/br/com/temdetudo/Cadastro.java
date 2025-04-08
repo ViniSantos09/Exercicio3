@@ -23,6 +23,9 @@ public class Cadastro extends AppCompatActivity {
         EdgeToEdge.enable(this);
         setContentView(R.layout.activity_cadastro);
 
+        btnConfirmarCadastro = findViewById(R.id.btnConfirmarCadastro);
+        editText = findViewById(R.id.editText);
+
         btnConfirmarCadastro.setOnClickListener(view -> {
             String nome = editText.getText().toString();
 

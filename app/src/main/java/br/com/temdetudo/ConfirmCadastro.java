@@ -24,6 +24,7 @@ public class ConfirmCadastro extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         txtNome = findViewById(R.id.txtNome);
+        btnMenu = findViewById(R.id.btnMenu);
 
         Intent intent = getIntent();
         Bundle bundle = intent.getExtras();
